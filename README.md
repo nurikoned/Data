@@ -19,7 +19,7 @@ Project 3: **Predicting Correct Drug using Decision Tree**
 6. The trained model was then used to predict the target variable (y) for the test dataset (x_test).
 7. The accuracy of the model was assessed and found to be 100%.
 
-Project 4: Diabetes Predictor using Logistic Regression
+Project 4: **Diabetes Predictor using Logistic Regression**
 
    The dataset originates from the National Institute of Diabetes and Digestive and Kidney Diseases, aimed at predicting diabetes diagnosis based on specific diagnostic measurements. Here's how we processed the data:
 1. **Data Inspection**: We started by importing the dataset and conducting initial checks including examining its shape, identifying null values, and inspecting data types.
