@@ -29,7 +29,7 @@ Project 4: **Diabetes Predictor using Logistic Regression**
 5. **Model Evaluation**: Using the trained model, we made predictions on the test data. To quantify the model's accuracy, we calculated the Jaccard score, providing insight into its predictive performance.
 6. **Confusion Matrix Visualization**: Additionally, we plotted a confusion matrix to gain a visual understanding of the model's accuracy, allowing us to assess its ability to correctly classify instances of diabetes and non-diabetes.
 
-Project 5: **98.7% Neural Networks Student Perforamnce**
+Project 5: **98.7% Neural Networks Student Performance**
 
 This project aimed to predict students' academic performance (Performance Index) based on key behavioral and academic features. The dataset contained several variables related to students' study habits and extracurricular involvement. Here's how the data was processed and modeled:
 
