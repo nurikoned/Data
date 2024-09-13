@@ -47,7 +47,7 @@ Once trained, the model’s performance was evaluated on the test data. The R² 
 To better understand the model’s performance, a residual plot was generated comparing actual vs. predicted values of the Performance Index. The residuals were minimal, showing that the model predictions were close to actual values with no significant errors.
 
 
-Project 6: **Neural Binary Classification of Mushrooms**
+Project 6: ** 97% Neural Binary Classification of Mushrooms**
 
 1. **Data Inspection:**
 The dataset from Kaggle was inspected for shape, missing values, and data types. The target variable, class, indicates whether a mushroom is edible or poisonous.
