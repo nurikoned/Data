@@ -45,3 +45,19 @@ A neural network model was created using multiple dense layers. The model archit
 Once trained, the model’s performance was evaluated on the test data. The R² score was computed, revealing that the model explained 98.55% of the variance in the Performance Index. This indicated strong predictive accuracy. Loss and accuracy curves were plotted to visualize the model's learning progression.
 6. **Residual Analysis:**
 To better understand the model’s performance, a residual plot was generated comparing actual vs. predicted values of the Performance Index. The residuals were minimal, showing that the model predictions were close to actual values with no significant errors.
+
+
+Project 6: **Neural Binary Classification of Mushrooms**
+
+1. **Data Inspection:**
+The dataset from Kaggle was inspected for shape, missing values, and data types. The target variable, class, indicates whether a mushroom is edible or poisonous.
+2. **Data Preparation:**
+The dataset was processed, converting categorical features into numerical format using one-hot encoding. Features were normalized to improve model training.
+3. **Train-Test Split:**
+The dataset was split into training and testing sets using a 70/30 ratio to evaluate the model's performance on unseen data.
+4. **Model Fitting:**
+A neural network with multiple dense layers was built using the TensorFlow library. The ReLU activation function was applied to hidden layers, while the sigmoid activation was used for binary classification. The Adam optimizer and binary cross-entropy loss were employed.
+5. **Model Evaluation:**
+After training, the model achieved 97% accuracy on the test data. The model’s performance was assessed using the confusion matrix, and other metrics such as precision, recall, and F1-score.
+6. **Visualization:**
+The accuracy and loss curves were plotted to evaluate the model’s performance over epochs, showing steady learning and convergence.
