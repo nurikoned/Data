@@ -115,3 +115,10 @@ def unzip_data(name):
   zip_ref = zipfile.ZipFile(name)
   zip_ref.extractall()
   zip_ref.close()
+
+
+"""# **TO CHECK THE NUBMER OF DIRECTORIES AND IMAGES**"""
+
+def walk_through_dir(dir_path):
+  for dirpath, dirnames, filenames in os.walk(dir_path):
+    print(f"There are {len(dirnames)} directories and {len(filenames)} images in '{dirpath}'.")
